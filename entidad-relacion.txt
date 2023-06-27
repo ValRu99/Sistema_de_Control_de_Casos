@@ -1,0 +1,8 @@
+El modelo de entidad-relación para la base de datos podría ser el siguiente:
+
+- Una entidad **clientes** que contenga información sobre cada cliente, como su nombre, información de contacto, detalles relevantes y el tipo de cliente (persona o empresa). Esta entidad estaría relacionada con la entidad empresas para indicar a qué empresa pertenece cada cliente.
+- Una entidad **empresas** que contenga información sobre cada empresa, como su nombre, información de contacto y detalles relevantes.
+- Una entidad **casos** que contenga información sobre cada caso, como su número de expediente, fecha de apertura y cierre, y detalles relevantes. Esta entidad estaría relacionada con la entidad clientes para indicar a qué cliente pertenece cada caso y con la entidad abogados para indicar a qué abogado pertenece cada caso.
+- Una entidad **actuaciones** que contenga información sobre cada actuación, como su fecha, hora y detalles relevantes. Esta entidad estaría relacionada con la entidad casos para indicar a qué caso pertenece cada actuación.
+- Una entidad **facturación** que contenga información sobre cada factura y pago, como su fecha, monto y detalles relevantes. Esta entidad estaría relacionada con la entidad clientes para indicar a qué cliente pertenece cada factura y pago y con la entidad casos para indicar a qué caso pertenece cada factura y pago.
+- Una entidad **abogados** que contenga información sobre cada abogado, como su nombre y detalles relevantes.
