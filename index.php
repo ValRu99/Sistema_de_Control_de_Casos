@@ -30,6 +30,20 @@
         
     <!-- FIN NAVBAR-->
 
+    <!--CONTENIDO-->
+
+    <div class="content">
+        <h1>Página Web <br><span>Bufete De Abogados</span></h1>
+        <p class="par">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Distinctio, ad optio qui non nemo eligendi asperiores officia. <br> Quae, mollitia repellendus debitis ullam dolor <br> quidem odio commodi minus suscipit optio consequatur esse, <br> recusandae fuga error modi sapiente non aspernatur numquam voluptas?
+        </p>
+
+        <button class="cn"><a href="#">Conócenos</a></button>
+
+    </div>
+    
+    <!--FIN CONTENIDO-->
+
 </div>
     
 </body>
